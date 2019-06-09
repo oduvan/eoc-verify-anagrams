@@ -1,0 +1,18 @@
+
+export function verifyAnagrams(a, b) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(verifyAnagrams('Programming', 'Gram Ring Mop'));
+
+// These "asserts" are used for self-checking
+assert.equal(verifyAnagrams('Programming', 'Gram Ring Mop'), true);
+assert.equal(verifyAnagrams('Hello', 'Ole Oh'), false);
+assert.equal(verifyAnagrams('Kyoto', 'Tokyo'), true);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    
