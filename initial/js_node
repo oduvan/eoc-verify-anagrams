@@ -1,8 +1,8 @@
 
-export function verifyAnagrams(a, b) {
+export function verifyAnagrams(a: string, b: string): boolean {
 
     // your code here
-    return undefined;
+    return false;
 }
 
 import * as assert from 'assert';
